@@ -131,7 +131,7 @@ def generate_response(conversation_id, user_message):
     Feel free to ask follow up question to your previous one to dive deeper into the concept. You can ask agent to close the conversation once you are clear with doubts and asked more then 5 questions, 
     
     Remember You should ask at least 5 questions including followup questions
-    Remember if support agent provides documentation link then please read it and ask followup based on the provided document.
+    Remember if support agent provides documentation link then please read it and ask followup question if you don't understand it.
     """
 
     messages = get_conversation(conversation_id=conversation_id, initial_system_instruction=initial_system_instruction)
