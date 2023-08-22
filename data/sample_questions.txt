@@ -1,0 +1,21 @@
+The destination table name in my pipeline is including the source schema name automatically, how can I prevent this?
+When I look at the query mode for a table config in my pipeline, I only see Unique Incrementing Append or Timedelta I need to have Change Data Capture enabled?
+The query mode is used to get historical data. Thereafter, all changes reflected in the source logs will replicate through Hevo? Are there any limitations from Hevo that would exclude any Updates, Deletes, or schema changes (as long as the source logs capture it)?
+Hevo does not allow creating pipelines with same source and destination?
+Is there a functionality in Hevo which can allows the access to the logs of all events, for instance we are very interested in having full statustics on
+models run failures. Ideally it could be a database or at least some data in files. Does Hevo provide such functionality?
+How Deletes are captured in Hevo?
+Is possible to get a list of your IP addresses? To Whitelist them?
+I create a pipeline, with SFTP as a source and Snowflake as a destination. I created it by copying a pipeline that I already have and that works (it already ingested some events). Now, I expected that as soon as I created this new pipeline, it would start ingesting events with the files that are already present in the SFTP server, but it seems this is not the case, as the pipeline is now stuck at the "Started Ingesting Events" phase.
+We need to setup AWS VPC Peering between a new redshift cluster and Hevo.
+tell me please how the transformation are done in Hevo? Do you do them before loading the data into destination or later? What about HIPPA compliance?
+Is there a functionality in Hevo which can allows the access to the logs of all events, for instance we are very interested in having full statustics on models run failures. Ideally it could be a database or at least some data in files. Does Hevo provide such functionality?
+Regarding this, "Also, would be nice to "clone" a pipeline and just make some minor changes vs having to re-create everything. "
+I'm wondering if there is a way to track historical changes for a salesforce connector or not>?
+can one pipeline have multiple endpoints? or is it one endpoint per pipeline?
+When Hevo detects a modification in the time_modified column in Blob (an update), does it keep the previous record in the destination and makes an insert or does it update the record in the destination as well?
+I am trying to create a pipeline using rest API's for ingesting data from growthbook. I want to understand how I can ingest the data incrementally and not import everything everytime the pipeline runs?
+I deleted a few files from Google Drive folder and then I set up the pipeline, but the pipeline still consider those deleted files and ingested them.
+Another thing, i saw that its possible to also use custom reports for facebook ads, which i would prefer as the standard ones load to much data into the tables?
+If i select skip and object then in future I will unable to load data for that object?
+Is there a way to configure a CSV payload?
